@@ -436,6 +436,7 @@
             this.hScrollBar3.Name = "hScrollBar3";
             this.hScrollBar3.Size = new System.Drawing.Size(303, 17);
             this.hScrollBar3.TabIndex = 2;
+            this.hScrollBar3.ValueChanged += new System.EventHandler(this.hScrollBar3_ValueChanged);
             // 
             // hScrollBar2
             // 
@@ -443,6 +444,7 @@
             this.hScrollBar2.Name = "hScrollBar2";
             this.hScrollBar2.Size = new System.Drawing.Size(303, 17);
             this.hScrollBar2.TabIndex = 1;
+            this.hScrollBar2.ValueChanged += new System.EventHandler(this.hScrollBar2_ValueChanged);
             // 
             // hScrollBar1
             // 
@@ -450,6 +452,7 @@
             this.hScrollBar1.Name = "hScrollBar1";
             this.hScrollBar1.Size = new System.Drawing.Size(303, 17);
             this.hScrollBar1.TabIndex = 0;
+            this.hScrollBar1.ValueChanged += new System.EventHandler(this.hScrollBar1_ValueChanged);
             // 
             // numericUpDown1
             // 
@@ -495,15 +498,16 @@
             this.trackBar1.Name = "trackBar1";
             this.trackBar1.Size = new System.Drawing.Size(168, 45);
             this.trackBar1.TabIndex = 11;
+            this.trackBar1.ValueChanged += new System.EventHandler(this.trackBar1_ValueChanged);
             // 
             // label7
             // 
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(352, 353);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(115, 15);
+            this.label7.Size = new System.Drawing.Size(124, 15);
             this.label7.TabIndex = 12;
-            this.label7.Text = "Dark Side Propensity";
+            this.label7.Text = "Dark Side Propensity:  ";
             // 
             // Form1
             // 
