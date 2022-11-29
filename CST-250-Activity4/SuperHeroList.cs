@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace CST_250_Activity4
 {
-    internal class SuperHeroList
+    public class SuperHeroList
     {
-        private List<SuperHero> listOfHeroes { get; set; }
+        public List<SuperHero> listOfHeroes { get; set; }
+
+        public SuperHeroList()
+        {
+            listOfHeroes = new List<SuperHero>();
+        }
     }
 }

@@ -71,6 +71,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.trackBar1 = new System.Windows.Forms.TrackBar();
             this.label7 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -509,11 +510,22 @@
             this.label7.TabIndex = 12;
             this.label7.Text = "Dark Side Propensity:  ";
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(365, 561);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(146, 46);
+            this.button1.TabIndex = 13;
+            this.button1.Text = "Create Hero";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 619);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.trackBar1);
             this.Controls.Add(this.pictureBox1);
@@ -529,6 +541,7 @@
             this.Controls.Add(this.textBox1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
@@ -591,5 +604,6 @@
         private PictureBox pictureBox1;
         private TrackBar trackBar1;
         private Label label7;
+        private Button button1;
     }
 }
